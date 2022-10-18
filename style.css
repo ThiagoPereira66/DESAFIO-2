@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+    width: 368px;
+    margin: 15px 0;
+
+}
+
+p {
+    width: 540px;
+    margin: 15px 0;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    opacity: 0.6;
+}
+
+button {
+    margin: 15px 0;
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.esquerdo {
+    display: inline-block;
+    padding-top: 19%;
+    padding-left: 136px;
+    width: 60%;
+
+}
+
+.direito {
+    display: inline-block;
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(93, 93, 125, 0.16);
+    position: absolute;
+
+
+}
+
+.img {
+    position: relative;
+    right: 129px;
+    margin-top: 150.88px;
+
+}
+
+a {
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    margin-right: 41px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+a:nth-child(2) {
+
+    opacity: .4;
+}
+
+a:hover {
+    opacity: .8;
+}
+
+a:active {
+    color: blue;
+}
+
+header {
+    margin: 24px 0 0 57px;
+}
+
+/* para resposividade usaremos "@media screen and (max-width) por padrão de tamanho de 
+tela fica a 900px"  */
+
+@media screen and (max-width: 900px) {
+
+    .esquerdo {
+        width: 100%;
+        height: 50%;
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .direito {
+        width: 100%;
+        height: 50%;
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    h1 {
+        width: auto;        
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        margin: 58px 53px 15px 54px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        width: auto;
+        margin: 15px 40px;
+    }
+
+    .img {
+        position: static;
+        width: 72%;
+        margin-top: 6%;
+
+    }
+
+    a {
+        display: none;
+    }
